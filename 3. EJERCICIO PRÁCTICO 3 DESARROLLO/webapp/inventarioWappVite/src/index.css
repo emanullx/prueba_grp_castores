@@ -1,0 +1,54 @@
+body {
+  background-color: #f8f9fa;
+}
+
+/* Estilo para las tarjetas del menú */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card .btn {
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+/* Colores personalizados */
+.card .text-primary {
+  color: #007bff;
+}
+
+.card .text-success {
+  color: #28a745;
+}
+
+.card .text-warning {
+  color: #ffc107;
+}
+
+.card .text-info {
+  color: #17a2b8;
+}
+
+.card .text-danger {
+  color: #dc3545;
+}
+
+a {
+  text-decoration: none!important;
+}
